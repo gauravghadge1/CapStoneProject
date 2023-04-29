@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>11/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Apr 29 13:27:52 IST 2023</td>
+<td>Started on:</td><td>Sat Apr 29 22:42:15 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>101 seconds (101177 ms)</td>
+<tr><td>Total time:</td><td>139 seconds (139280 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,45 +68,138 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.wipro.testcases.AddAddress.setUpClass()'><b>setUpClass</b><br>Test class: com.wipro.testcases.AddAddress<br>Parameters: org.testng.TestRunner@3cd26422</td>
-<td><div><pre>java.lang.IllegalArgumentException: path must exist: /Users/GA20450687/Downloads/BDD_NoopCommerce/src\main\resources\features\address.feature
-	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:49)
-	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
-	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
-	at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:134)
-	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)
-	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)
-	at io.cucumber.testng.TestNGCucumberRunner.&lt;init&gt;(TestNGCucumberRunner.java:122)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:27)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace132338135", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace132338135'><pre>java.lang.IllegalArgumentException: path must exist: /Users/GA20450687/Downloads/BDD_NoopCommerce/src\main\resources\features\address.feature
-	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:49)
-	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
-	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
-	at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:134)
-	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)
-	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)
-	at io.cucumber.testng.TestNGCucumberRunner.&lt;init&gt;(TestNGCucumberRunner.java:122)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:27)
+<td title='com.wipro.testcases.PlaceOrder.clickCheckoutTest()'><b>clickCheckoutTest</b><br>Test class: com.wipro.testcases.PlaceOrder</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: Element &lt;button class=&quot;button-1 shipping-method-next-step-button&quot; type=&quot;button&quot;&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-00M843A&apos;, ip: &apos;169.254.156.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3444, moz:profile: C:\Users\Gaurav\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1b104591-68bd-4474-a2fa-830c5996f5c3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.wipro.pages.PlaceOrderPage.clickCheckout(PlaceOrderPage.java:70)
+	at com.wipro.testcases.PlaceOrder.clickCheckoutTest(PlaceOrder.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace822769753", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace822769753'><pre>org.openqa.selenium.ElementNotInteractableException: Element &lt;button class=&quot;button-1 shipping-method-next-step-button&quot; type=&quot;button&quot;&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-00M843A&apos;, ip: &apos;169.254.156.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3444, moz:profile: C:\Users\Gaurav\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1b104591-68bd-4474-a2fa-830c5996f5c3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.wipro.pages.PlaceOrderPage.clickCheckout(PlaceOrderPage.java:70)
+	at com.wipro.testcases.PlaceOrder.clickCheckoutTest(PlaceOrder.java:49)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>com.wipro.testcases.PlaceOrder@4009e306</td></tr>
+<tr>
+<td title='com.wipro.testcases.PlaceOrder.clickConfirmTest()'><b>clickConfirmTest</b><br>Test class: com.wipro.testcases.PlaceOrder</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: Element &lt;button class=&quot;button-1 confirm-order-next-step-button&quot; type=&quot;button&quot;&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-00M843A&apos;, ip: &apos;169.254.156.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3444, moz:profile: C:\Users\Gaurav\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1b104591-68bd-4474-a2fa-830c5996f5c3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.wipro.pages.PlaceOrderPage.clickConfirm(PlaceOrderPage.java:91)
+	at com.wipro.testcases.PlaceOrder.clickConfirmTest(PlaceOrder.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace590414408", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace590414408'><pre>org.openqa.selenium.ElementNotInteractableException: Element &lt;button class=&quot;button-1 confirm-order-next-step-button&quot; type=&quot;button&quot;&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-00M843A&apos;, ip: &apos;169.254.156.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3444, moz:profile: C:\Users\Gaurav\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1b104591-68bd-4474-a2fa-830c5996f5c3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.wipro.pages.PlaceOrderPage.clickConfirm(PlaceOrderPage.java:91)
+	at com.wipro.testcases.PlaceOrder.clickConfirmTest(PlaceOrder.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -124,31 +217,60 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.wipro.testcases.AddAddress@55de24cc</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>com.wipro.testcases.PlaceOrder@4009e306</td></tr>
 <tr>
-<td title='com.wipro.testcases.AccountRegister.createAccount()'><b>createAccount</b><br>Test class: com.wipro.testcases.AccountRegister<br>Parameters: Shubham, Tange, shubhamtange167@gmail.com, Shubham@123, Shubham@123</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at com.wipro.testcases.AccountRegister.createAccount(AccountRegister.java:26)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1301763240", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1301763240'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at org.testng.Assert.assertTrue(Assert.java:55)
-	at com.wipro.testcases.AccountRegister.createAccount(AccountRegister.java:26)
+<td title='com.wipro.testcases.PlaceOrder.makePaymentTest()'><b>makePaymentTest</b><br>Test class: com.wipro.testcases.PlaceOrder</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;paymentmethod_0&quot;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-00M843A&apos;, ip: &apos;169.254.156.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3444, moz:profile: C:\Users\Gaurav\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1b104591-68bd-4474-a2fa-830c5996f5c3
+*** Element info: {Using=xpath, value=//*[@id=&quot;paymentmethod_0&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.wipro.pages.PlaceOrderPage.makePayment(PlaceOrderPage.java:79)
+	at com.wipro.testcases.PlaceOrder.makePaymentTest(PlaceOrder.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace299161977", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace299161977'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;paymentmethod_0&quot;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-00M843A&apos;, ip: &apos;169.254.156.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230424110519, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3444, moz:profile: C:\Users\Gaurav\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1b104591-68bd-4474-a2fa-830c5996f5c3
+*** Element info: {Using=xpath, value=//*[@id=&quot;paymentmethod_0&quot;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.wipro.pages.PlaceOrderPage.makePayment(PlaceOrderPage.java:79)
+	at com.wipro.testcases.PlaceOrder.makePaymentTest(PlaceOrder.java:55)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -157,7 +279,7 @@ function toggleAllBoxes() {
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -174,8 +296,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>20</td>
-<td>com.wipro.testcases.AccountRegister@d554c5f</td></tr>
+<td>0</td>
+<td>com.wipro.testcases.PlaceOrder@4009e306</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -185,60 +307,55 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.wipro.testcases.PlaceOrder.addToCartTest()'><b>addToCartTest</b><br>Test class: com.wipro.testcases.PlaceOrder</td>
+<td title='com.wipro.testcases.AccountRegister.createAccount()'><b>createAccount</b><br>Test class: com.wipro.testcases.AccountRegister<br>Parameters: Gaurav, Ghadge, gauravghadge@gmail.com, Gaurav@123, Gaurav@123</td>
 <td></td>
 <td>10</td>
-<td>com.wipro.testcases.PlaceOrder@69c81773</td></tr>
-<tr>
-<td title='com.wipro.testcases.PlaceOrder.clickShoppingCartTest()'><b>clickShoppingCartTest</b><br>Test class: com.wipro.testcases.PlaceOrder</td>
-<td></td>
-<td>2</td>
-<td>com.wipro.testcases.PlaceOrder@69c81773</td></tr>
-<tr>
-<td title='com.wipro.testcases.PlaceOrder.makePaymentTest()'><b>makePaymentTest</b><br>Test class: com.wipro.testcases.PlaceOrder</td>
-<td></td>
-<td>6</td>
-<td>com.wipro.testcases.PlaceOrder@69c81773</td></tr>
-<tr>
-<td title='com.wipro.testcases.PlaceOrder.clickConfirmTest()'><b>clickConfirmTest</b><br>Test class: com.wipro.testcases.PlaceOrder</td>
-<td></td>
-<td>1</td>
-<td>com.wipro.testcases.PlaceOrder@69c81773</td></tr>
-<tr>
-<td title='com.wipro.testcases.PlaceOrder.clickCheckoutTest()'><b>clickCheckoutTest</b><br>Test class: com.wipro.testcases.PlaceOrder</td>
-<td></td>
-<td>8</td>
-<td>com.wipro.testcases.PlaceOrder@69c81773</td></tr>
-<tr>
-<td title='com.wipro.testcases.ValidateMenu.valiadteLogout()'><b>valiadteLogout</b><br>Test class: com.wipro.testcases.ValidateMenu</td>
-<td></td>
-<td>5</td>
-<td>com.wipro.testcases.ValidateMenu@4d14b6c2</td></tr>
+<td>com.wipro.testcases.AccountRegister@23348b5d</td></tr>
 <tr>
 <td title='com.wipro.testcases.ValidateMenu.validateMenuTest()'><b>validateMenuTest</b><br>Test class: com.wipro.testcases.ValidateMenu</td>
 <td></td>
 <td>10</td>
-<td>com.wipro.testcases.ValidateMenu@4d14b6c2</td></tr>
+<td>com.wipro.testcases.ValidateMenu@43c1b556</td></tr>
+<tr>
+<td title='com.wipro.testcases.AddAddress.runScenario()'><b>runScenario</b><br>Test class: com.wipro.testcases.AddAddress<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To validate add address functionality", "Add Address"</td>
+<td></td>
+<td>32</td>
+<td>com.wipro.testcases.AddAddress@ae13544</td></tr>
 <tr>
 <td title='com.wipro.testcases.PlaceOrder.valiadteLogout()'><b>valiadteLogout</b><br>Test class: com.wipro.testcases.PlaceOrder</td>
 <td></td>
 <td>5</td>
-<td>com.wipro.testcases.PlaceOrder@69c81773</td></tr>
+<td>com.wipro.testcases.PlaceOrder@4009e306</td></tr>
 <tr>
 <td title='com.wipro.testcases.PlaceOrder.selectDesktopTest()'><b>selectDesktopTest</b><br>Test class: com.wipro.testcases.PlaceOrder</td>
 <td></td>
-<td>5</td>
-<td>com.wipro.testcases.PlaceOrder@69c81773</td></tr>
+<td>6</td>
+<td>com.wipro.testcases.PlaceOrder@4009e306</td></tr>
 <tr>
-<td title='com.wipro.testcases.PlaceOrder.loginTest()'><b>loginTest</b><br>Test class: com.wipro.testcases.PlaceOrder<br>Parameters: shubhamtange167@gmail.com, Shubham@123</td>
+<td title='com.wipro.testcases.PlaceOrder.addToCartTest()'><b>addToCartTest</b><br>Test class: com.wipro.testcases.PlaceOrder</td>
+<td></td>
+<td>10</td>
+<td>com.wipro.testcases.PlaceOrder@4009e306</td></tr>
+<tr>
+<td title='com.wipro.testcases.ValidateMenu.loginTest()'><b>loginTest</b><br>Test class: com.wipro.testcases.ValidateMenu<br>Parameters: gauravghadge@gmail.com, Gaurav@123</td>
 <td></td>
 <td>5</td>
-<td>com.wipro.testcases.PlaceOrder@69c81773</td></tr>
+<td>com.wipro.testcases.ValidateMenu@43c1b556</td></tr>
 <tr>
-<td title='com.wipro.testcases.ValidateMenu.loginTest()'><b>loginTest</b><br>Test class: com.wipro.testcases.ValidateMenu<br>Parameters: shubhamtange167@gmail.com, Shubham@123</td>
+<td title='com.wipro.testcases.ValidateMenu.valiadteLogout()'><b>valiadteLogout</b><br>Test class: com.wipro.testcases.ValidateMenu</td>
 <td></td>
 <td>5</td>
-<td>com.wipro.testcases.ValidateMenu@4d14b6c2</td></tr>
+<td>com.wipro.testcases.ValidateMenu@43c1b556</td></tr>
+<tr>
+<td title='com.wipro.testcases.PlaceOrder.loginTest()'><b>loginTest</b><br>Test class: com.wipro.testcases.PlaceOrder<br>Parameters: gauravghadge@gmail.com, Gaurav@123</td>
+<td></td>
+<td>4</td>
+<td>com.wipro.testcases.PlaceOrder@4009e306</td></tr>
+<tr>
+<td title='com.wipro.testcases.PlaceOrder.clickShoppingCartTest()'><b>clickShoppingCartTest</b><br>Test class: com.wipro.testcases.PlaceOrder</td>
+<td></td>
+<td>2</td>
+<td>com.wipro.testcases.PlaceOrder@4009e306</td></tr>
 </table><p>
 </body>
 </html>

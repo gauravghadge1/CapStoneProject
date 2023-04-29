@@ -8,13 +8,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.wipro.testcases.AccountRegister">
+      <class name="com.wipro.testcases.PlaceOrder">
         <methods>
-          <include name="beforeClass"/>
-          <include name="createAccount" invocation-numbers="0"/>
           <include name="afterClass"/>
+          <include name="makePaymentTest"/>
+          <include name="beforeClass"/>
+          <include name="clickConfirmTest"/>
+          <include name="clickCheckoutTest"/>
         </methods>
-      </class> <!-- com.wipro.testcases.AccountRegister -->
+      </class> <!-- com.wipro.testcases.PlaceOrder -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
