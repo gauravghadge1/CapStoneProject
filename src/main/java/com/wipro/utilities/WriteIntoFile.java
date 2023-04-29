@@ -5,10 +5,12 @@ import java.io.IOException;
 
 public class WriteIntoFile {
 	
+	
+//	Code For Writing Data in TextFile
 	public static void writeData(String prodName, String prodPrize) {
 		FileWriter fw;
 		try {
-			fw = new FileWriter("src\\test\\resources\\outputData\\Prize.txt");
+			fw = new FileWriter("src/test/resources/outputData/Prize.txt");
 			
 			fw.write(prodName);
 			fw.write("\t" + prodPrize);

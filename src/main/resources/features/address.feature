@@ -11,4 +11,4 @@ Then user enters "<firstname>" , "<lastName>" , "<Email>"  , "<cityname>" , "<ad
 
 Examples:
 |username|password|firstname|lastName|Email|cityname|addressCity|postalCode|pNumber|
-|shubhamtange167@gmail.com|Shubham@123|Shubham|Tange|shubhamtange167@gmail.com|Chennai|wipro-street,chennai|600119|9658741680|
+|shubhamtange167@gmail.com|Shubham@123|Gaurav|Ghadge|gauravghadge@gmail.com|Pune|wipro-street,chennai|600119|6393848333|

@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="20.300">
+           time="20.219">
   <properties />
-            <testcase name="createAccount" time="20.300" classname="com.wipro.testcases.AccountRegister">
+            <testcase name="createAccount" time="20.219" classname="com.wipro.testcases.AccountRegister">
                 <failure type="java.lang.AssertionError"
                   message="expected [true] but found [false]"
               >

@@ -4,17 +4,17 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="47.205">
+           time="46.559">
   <properties />
   
   
-            <testcase name="addToCartTest" time="10.114" classname="com.wipro.testcases.PlaceOrder" />
-                <testcase name="valiadteLogout" time="6.467" classname="com.wipro.testcases.PlaceOrder" />
-                <testcase name="loginTest" time="4.725" classname="com.wipro.testcases.PlaceOrder" />
-                <testcase name="clickShoppingCartTest" time="3.130" classname="com.wipro.testcases.PlaceOrder" />
-                <testcase name="clickCheckoutTest" time="8.700" classname="com.wipro.testcases.PlaceOrder" />
-                <testcase name="selectDesktopTest" time="6.611" classname="com.wipro.testcases.PlaceOrder" />
-                <testcase name="clickConfirmTest" time="1.170" classname="com.wipro.testcases.PlaceOrder" />
-                <testcase name="makePaymentTest" time="6.288" classname="com.wipro.testcases.PlaceOrder" />
+            <testcase name="addToCartTest" time="10.246" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="clickShoppingCartTest" time="2.806" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="makePaymentTest" time="6.701" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="clickConfirmTest" time="1.239" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="clickCheckoutTest" time="8.713" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="valiadteLogout" time="5.779" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="selectDesktopTest" time="5.923" classname="com.wipro.testcases.PlaceOrder" />
+                <testcase name="loginTest" time="5.152" classname="com.wipro.testcases.PlaceOrder" />
       
 </testsuite>

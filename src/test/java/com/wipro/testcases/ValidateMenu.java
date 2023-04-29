@@ -7,7 +7,6 @@ import com.wipro.pages.LogOut;
 import com.wipro.pages.LoginPage;
 import com.wipro.pages.ValidateMenuPage;
 import com.wipro.utilities.ReadFromExcel;
-import com.wipro.utilities.ReadFromExcel;
 
 
 import org.testng.annotations.DataProvider;
